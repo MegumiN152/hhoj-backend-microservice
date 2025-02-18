@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: www.huanghao.icu:8848
+        username: nacos
+        password: Nimabi687
+server:
+  address: 0.0.0.0
+  port: 8108
+  servlet:
+    context-path: /api
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
